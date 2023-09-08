@@ -32,8 +32,13 @@
 
 ### Решение 1
 
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/123.png)
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/223.png)
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-07%20225237.png)
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-07%20231626.png)
 
-![alt text](https://github.com/artmur1/artem-murchin/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-08-29%20232305.png)
+Схема в формате pkt
+
 
 ---
 
@@ -50,15 +55,17 @@
 
 ### Решение 2
 
-- Bash-скрипт:
-- vrrp_script chk {
--    script "[[ -e /var/www/html/index.nginx-debian.html ]] || [[ /usr/bin/curl http://127.0.0.1 ]]"
--    interval 3
-- }
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/9-1_zad2-1.png)
+![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/9-1_zad2-2.png)
 
-![alt text](https://github.com/artmur1/artem-murchin/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-02%20114429.png)
+Конфигурационный файл keepalived
 
-- По разному пробовал написать скрипт, но он так и не заработал. Отправляю что есть. Полный конфиг keepalived во вложении.
+
+
+Bash-скрипт
+
+
+
 
 ---
 
