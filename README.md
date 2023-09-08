@@ -38,7 +38,7 @@
 ![alt text](https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%202023-09-07%20231626.png)
 
 Схема в формате pkt
-
+https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/hsrp_advanced_MurchinA_2.pkt
 
 ---
 
@@ -60,11 +60,11 @@
 
 Конфигурационный файл keepalived
 
-
+https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/Murchin_A_keepalived.conf
 
 Bash-скрипт
 
-
+https://github.com/artmur1/9-1-disaster-recovery-hw/blob/main/Murchin_A_nginx_check.sh
 
 
 ---
